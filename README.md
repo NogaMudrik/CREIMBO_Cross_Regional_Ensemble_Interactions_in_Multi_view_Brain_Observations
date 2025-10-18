@@ -6,7 +6,8 @@
 Mudrik, N., Ly, R., Ruebel, O., & Charles, A. S. (2025, January). CREIMBO: Cross-Regional Ensemble Interactions in Multi-view Brain Observations. The International Conference on Learning Representations (ICLR)
 
 ### BibTex:
-```@inproceedings{mudrik2025creimbo,
+```
+@inproceedings{mudrik2025creimbo,
   title={CREIMBO: Cross-Regional Ensemble Interactions in Multi-view Brain Observations},
   author={Mudrik, Noga and Ly, Ryan and Ruebel, Oliver and Charles, Adam S},
   year={2025},
