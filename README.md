@@ -3,14 +3,14 @@
 
 # **CODE WILL BE AVAILABLE SOON**
 ### Code for:
-Mudrik, N., Ly, R., Ruebel, O., Shabti, A., & Charles. (2025). CREIMBO: Cross-Regional Ensemble Interactions in Multi-view Brain Observations. In The Thirteenth International Conference on Learning Representations. https://openreview.net/forum?id=28abpUEICJ
+Mudrik, N., Ly, R., Ruebel, O., & Charles, A. S. (2025, January). CREIMBO: Cross-Regional Ensemble Interactions in Multi-view Brain Observations. The International Conference on Learning Representations (ICLR)
 
 ### BibTex:
-```@article{mudrik2024creimbo,
-  title={Creimbo: Cross ensemble interactions in multi-view brain observations},
+```@inproceedings{mudrik2025creimbo,
+  title={CREIMBO: Cross-Regional Ensemble Interactions in Multi-view Brain Observations},
   author={Mudrik, Noga and Ly, Ryan and Ruebel, Oliver and Charles, Adam S},
-  journal={arXiv preprint arXiv:2405.17395},
-  year={2024}
+  year={2025},
+  organization={The International Conference on Learning Representations}
 }
 ```
 ### QR of paper:
