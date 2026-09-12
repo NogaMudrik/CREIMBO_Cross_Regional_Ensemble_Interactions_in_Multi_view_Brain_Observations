@@ -138,7 +138,7 @@ The human recordings come from the Sternberg working-memory single-neuron datase
 
 ## License
 
-No license file is currently included, which means default copyright applies. To let others use the code, add a `LICENSE` file (MIT is a common choice for research code) and update this section.
+Released under the MIT License
 
 ---
 
