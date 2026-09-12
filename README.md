@@ -1,8 +1,6 @@
 <div align="center">
 
-# CREIMBO
-
-### Cross-Regional Ensemble Interactions in Multi-view Brain Observations
+### Cross-Regional Ensemble Interactions in Multi-view Brain Observations (CREIMBO)
 
 **Learning shared, interpretable neural dynamics across brain regions and multiple asynchronous, non-overlapping recording sessions**
 
