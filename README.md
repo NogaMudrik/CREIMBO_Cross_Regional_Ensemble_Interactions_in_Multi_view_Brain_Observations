@@ -8,7 +8,7 @@
 
 [![ICLR 2025 Spotlight](https://img.shields.io/badge/ICLR%202025-Spotlight-b31b1b.svg)](https://openreview.net/forum?id=28abpUEICJ)
 [![OpenReview](https://img.shields.io/badge/paper-OpenReview-8c1b13.svg)](https://openreview.net/forum?id=28abpUEICJ)
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![pylops](https://img.shields.io/badge/pylops-1.18.2-orange.svg)](https://pylops.readthedocs.io/)
 <br>
 ![Last commit](https://img.shields.io/github/last-commit/NogaMudrik/CREIMBO_Cross_Regional_Ensemble_Interactions_in_Multi_view_Brain_Observations)
