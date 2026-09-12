@@ -144,7 +144,7 @@ No license file is currently included, which means default copyright applies. To
 
 ## Contact
 
-Open a [GitHub issue](https://github.com/NogaMudrik/CREIMBO_Cross_Regional_Ensemble_Interactions_in_Multi_view_Brain_Observations/issues) or email **nmudrik1@jhu.edu**.
+Open a [GitHub issue](https://github.com/NogaMudrik/CREIMBO_Cross_Regional_Ensemble_Interactions_in_Multi_view_Brain_Observations/issues) or email **nmudrik [at] UW.edu**.
 
 ---
 
