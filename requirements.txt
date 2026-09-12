@@ -1,0 +1,12 @@
+# CREIMBO dependencies
+# Python 3.9-3.10 recommended. pylops 1.18.2 requires numpy < 2.
+numpy<2
+scipy
+matplotlib
+pandas
+seaborn
+scikit-learn
+statsmodels
+pylops==1.18.2
+# tkinter is part of the Python standard library.
+# On Debian/Ubuntu install with: sudo apt-get install python3-tk
