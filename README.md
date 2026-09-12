@@ -4,7 +4,7 @@
 
 ### Cross-Regional Ensemble Interactions in Multi-view Brain Observations
 
-**Learning shared, interpretable neural dynamics across multiple asynchronous, non-overlapping recording sessions**
+**Learning shared, interpretable neural dynamics across brain regions and multiple asynchronous, non-overlapping recording sessions**
 
 [![ICLR 2025 Spotlight](https://img.shields.io/badge/ICLR%202025-Spotlight-b31b1b.svg)](https://openreview.net/forum?id=28abpUEICJ)
 [![OpenReview](https://img.shields.io/badge/paper-OpenReview-8c1b13.svg)](https://openreview.net/forum?id=28abpUEICJ)
