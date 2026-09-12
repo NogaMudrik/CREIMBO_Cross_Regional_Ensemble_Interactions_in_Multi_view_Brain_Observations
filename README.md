@@ -2,7 +2,7 @@
 
 ### Cross-Regional Ensemble Interactions in Multi-view Brain Observations (CREIMBO)
 
-**Learning shared, interpretable neural dynamics across brain regions and multiple asynchronous, non-overlapping recording sessions**
+**Mudrik, Ly, Ruebel, Charles (ICLR 2025 Spotlight). Learning shared, interpretable neural dynamics across brain regions and multiple asynchronous sessions with no common neurons.**
 
 [![ICLR 2025 Spotlight](https://img.shields.io/badge/ICLR%202025-Spotlight-b31b1b.svg)](https://openreview.net/forum?id=28abpUEICJ)
 [![OpenReview](https://img.shields.io/badge/paper-OpenReview-8c1b13.svg)](https://openreview.net/forum?id=28abpUEICJ)
@@ -21,7 +21,7 @@
 
 ## TL;DR
 
-CREIMBO fits **one** interpretable model of brain-wide dynamics across neural recordings that **share no common neurons or brain areas**. It treats asynchronous, misaligned, multi-session recordings as diverse views of the same system, learns a set of **global sub-circuits** shared across sessions through graph-driven dictionary learning, and separates **session-invariant** dynamics from **session-specific** variation. Published at **ICLR 2025 (Spotlight)**.
+CREIMBO (Mudrik et al., 2025) fits one interpretable model of brain-wide dynamics from recordings that share no common neurons across sessions or regions. It treats asynchronous, misaligned, multi-session recordings as diverse views of the same system, learns a set of global sub-circuits shared across sessions through graph-driven dictionary learning, and separates session-invariant dynamics from session-specific variation. Published at ICLR 2025 (Spotlight).
 
 <p align="center">
   <img src="assets/creimbo_overview.png" width="820" alt="CREIMBO method overview: a global set of dynamics sub-circuits composed over time to reconstruct multiple sessions with non-overlapping neurons, recovering a unified model of ensemble interactions">
