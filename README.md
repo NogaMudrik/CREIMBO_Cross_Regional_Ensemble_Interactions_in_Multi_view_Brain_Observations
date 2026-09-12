@@ -26,7 +26,7 @@
 CREIMBO fits **one** interpretable model of brain-wide dynamics across neural recordings that **share no common neurons or brain areas**. It treats asynchronous, misaligned, multi-session recordings as diverse views of the same system, learns a set of **global sub-circuits** shared across sessions through graph-driven dictionary learning, and separates **session-invariant** dynamics from **session-specific** variation. Published at **ICLR 2025 (Spotlight)**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/28776a2b-df0b-4432-8bbc-0d89d80d61da" width="620" alt="CREIMBO overview: shared global sub-circuits explaining multiple asynchronous, non-overlapping neural recording sessions">
+  <img src="assets/creimbo_overview.png" width="820" alt="CREIMBO method overview: a global set of dynamics sub-circuits composed over time to reconstruct multiple sessions with non-overlapping neurons, recovering a unified model of ensemble interactions">
 </p>
 
 ---
