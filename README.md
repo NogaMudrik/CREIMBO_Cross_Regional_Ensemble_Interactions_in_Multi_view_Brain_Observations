@@ -19,7 +19,7 @@
 
 </div>
 
-:
+---
 
 ## TL;DR
 
@@ -29,7 +29,7 @@ CREIMBO fits **one** interpretable model of brain-wide dynamics across neural re
   <img src="https://github.com/user-attachments/assets/28776a2b-df0b-4432-8bbc-0d89d80d61da" width="620" alt="CREIMBO overview: shared global sub-circuits explaining multiple asynchronous, non-overlapping neural recording sessions">
 </p>
 
-:
+---
 
 ## Highlights
 
@@ -39,7 +39,7 @@ CREIMBO fits **one** interpretable model of brain-wide dynamics across neural re
 - **Global vs. session-specific.** Disentangles session-invariant computation from per-session variation.
 - **Validated.** Recovers ground truth in synthetic data and reveals cross-subject dynamics in human high-density recordings.
 
-:
+---
 
 ## Installation
 
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 `tkinter` is used for a file dialog and ships with most Python installs. On Debian/Ubuntu, install it with `sudo apt-get install python3-tk` if it is missing.
 
-:
+---
 
 ## Quick start
 
@@ -66,7 +66,7 @@ python run_CREIMBO.py
 The script is interactive. When prompted `session num?!`, enter one of:
 
 | Input | Meaning |
-| : | : |
+| --- | --- |
 | `-1` | All sessions together (default CREIMBO setting) |
 | `-2` | First 5 sessions |
 | `0`, `1`, ... | A single session by index |
@@ -79,24 +79,24 @@ The default synthetic configuration (`type_synth = 'simplesimple'`) uses the gro
 python synthetic_create_low_regions_simple_example4.py
 ```
 
-:
+---
 
 ## How it works
 
 | Stage | What happens |
-| : | : |
+| --- | --- |
 | **Inputs** | Multiple sessions with disjoint neuron sets and brain regions. |
 | **Sub-circuits** | A shared global dictionary of ensemble-level interactions is learned via graph-driven dictionary learning. |
 | **Composition** | Each session's dynamics are a sparse, time-varying mixture of the shared sub-circuits on a low-dimensional manifold. |
 | **Decomposition** | Session-invariant dynamics are separated from session covariates and session-specific activations. |
 | **Outputs** | Global sub-circuits `F`, per-session coefficients, latent dynamics, and the dictionary `D`, saved as a results dictionary. |
 
-:
+---
 
 ## Repository structure
 
 | File / folder | Purpose |
-| : | : |
+| --- | --- |
 | `main_CREIMBO.py` | Core model and all functions (entry function: `train_model_include_D`). |
 | `run_CREIMBO.py` | Configures parameters, fits the model, and saves results. |
 | `synthetic_create_low_regions_simple_example4.py` | Generates synthetic multi-region data. |
@@ -104,7 +104,7 @@ python synthetic_create_low_regions_simple_example4.py
 | `synth_simple/` | Provided synthetic ground-truth example. |
 | `requirements.txt` | Python dependencies. |
 
-:
+---
 
 ## Data
 
@@ -114,7 +114,7 @@ The human recordings come from the Sternberg working-memory single-neuron datase
 
 **To run on the human data:** download subject 10 from DANDI `000469`, then edit the hardcoded paths at the top of `open_human_data_multi_regional_000469.py` to point to your local copy. The script preprocesses spike times into Gaussian-smoothed firing-rate matrices used by the model.
 
-:
+---
 
 ## Citation
 
@@ -127,26 +127,26 @@ The human recordings come from the Sternberg working-memory single-neuron datase
 }
 ```
 
-:
+---
 
 ## Related work by the authors
 
-- **dLDS** — Decomposed Linear Dynamical Systems for the latent components of neural dynamics (JMLR 2024).
-- **SiBBlInGS** — Similarity-driven building-block inference using graphs across states (ICML 2024).
+- **dLDS**: Decomposed Linear Dynamical Systems for the latent components of neural dynamics (JMLR 2024).
+- **SiBBlInGS**: Similarity-driven building-block inference using graphs across states (ICML 2024).
 
-:
+---
 
 ## License
 
 No license file is currently included, which means default copyright applies. To let others use the code, add a `LICENSE` file (MIT is a common choice for research code) and update this section.
 
-:
+---
 
 ## Contact
 
 Open a [GitHub issue](https://github.com/NogaMudrik/CREIMBO_Cross_Regional_Ensemble_Interactions_in_Multi_view_Brain_Observations/issues) or email **nmudrik1@jhu.edu**.
 
-:
+---
 
 <!--
 Keywords for search and indexing:
